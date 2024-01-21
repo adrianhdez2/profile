@@ -24,13 +24,13 @@ body {
     width: 400px;
     min-width: 400px;
     height: 600px;
-    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 20px;
     position: relative;
+    border-radius: 20px;
     box-shadow: 0 0 20px #1e5880;
 }
 
@@ -52,7 +52,7 @@ body {
     position: absolute;
     border-radius: 50%;
     top: -100px;
-    box-shadow: 0px 0px 20px #ffffff80;
+    box-shadow: 0 0 20px #1e5880;
 }
 
 .title_card {
@@ -100,6 +100,7 @@ i{
         width: 100vw;
         height: 100vh;
         border: none;
+        box-shadow: none
     }
 
     .img_card{
